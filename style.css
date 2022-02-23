@@ -1,0 +1,187 @@
+body{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.nav
+{
+  display: flex;
+  /* background-color: grey; */
+  height: 75px;
+  width: 100%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #001234;
+  
+}
+
+.left
+{
+  /* padding-left: 10px; */
+  /* padding: 20px; */
+  padding: 1%;
+  background-color:#001234;
+  color: white;
+  width: auto;
+  font-family: cursive;
+}
+.right
+{
+  display: flex;
+  padding-left: 25%;
+  padding-top: 15px;
+  color: #001234;
+}
+
+a{
+  padding: 20px;
+  text-decoration: none;
+  color: #001234;
+  font-size: 15pt;
+}
+
+.content
+{
+  display: flex;
+  /* background-color: cornflowerblue; */
+  height: 300px;
+  margin-top:100px;
+  width: 80%;
+  margin-left: 15%;
+  color: #001234;
+  
+}
+
+.text
+{
+  font-size: 15px;
+  /* font-family: monospace; */
+  width: 50%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text p{
+  font-size: 16px;
+}
+.image
+{
+  padding-left: 15%;
+}
+img{
+  background-color: black;
+  border-radius: 20pt;
+  height: 100%;
+  width: 100%;
+}
+
+footer{
+  padding-top: 10px;
+  margin-top: 82px;
+  display: block;
+  text-align: center;
+  height: 40px;
+  background-color: #001234;
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.education
+{
+  text-align: center;
+  margin-top: 70px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #001234;
+}
+
+.details{
+  color: white;
+  margin-top: 35px;
+  margin-left: 10%;
+  padding-left: 2%;
+  display: inline-block;
+  width: 80%;
+  height: 350px;
+  background-color: #001234;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sameline{  
+  display: flex;
+}
+
+.grade
+{
+  padding-left: 450px;
+}
+
+hr{
+  padding-left: 0%;
+  width: 100%;
+}
+
+.connect
+{
+  margin-top: 100px;
+  color: #001234;
+  text-align: center;
+}
+.connect h1{
+  color: #001234;
+  font-size: 60px;
+}
+
+button{
+  border-radius: 12%;
+  background-color: #001234;
+  margin: 10px;
+  padding: 20px;
+}
+
+.buttons
+{
+  margin-top: 50px;
+}
+
+
+button a{
+  color: white;
+}
+
+.skillsHeading{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  margin-top: 50px;
+  text-align: center;
+  color:#001234;
+}
+
+.skillContents
+{
+  display: flex;
+  margin-top: 50px;
+  background-color: #001234;
+  width: 80%;
+  height: 350px;
+  margin-left: 10%;
+  border-radius: 10px;
+}
+
+.leftSkills, .rightSkills
+{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #001234;
+  text-align: center;
+  border-radius: 10px;
+  display: inline-block;
+  width: 40%;
+  margin-top: 35px;
+  margin-left: 65px;
+  background-color: white;
+  height: 80%;
+}
+
+
+
+
+
